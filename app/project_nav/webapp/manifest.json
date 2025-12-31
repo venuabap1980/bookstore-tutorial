@@ -1,7 +1,7 @@
 {
   "_version": "1.76.0",
   "sap.app": {
-    "id": "bookstoreapplication",
+    "id": "projectnav",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -13,7 +13,7 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
       "version": "1.20.0",
-      "toolsId": "0f21e007-6952-44c8-818e-26958822d881"
+      "toolsId": "42a01a3a-3c30-47f0-ab8d-c66f43a8af66"
     },
     "dataSources": {
       "mainService": {
@@ -60,7 +60,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "bookstoreapplication.i18n.i18n"
+          "bundleName": "projectnav.i18n.i18n"
         }
       },
       "": {
@@ -92,6 +92,11 @@
           "pattern": "Books({key}):?query:",
           "name": "BooksObjectPage",
           "target": "BooksObjectPage"
+        },
+        {
+          "pattern": "Books({key})/Chapters({key2}):?query:",
+          "name": "ChaptersObjectPage",
+          "target": "ChaptersObjectPage"
         }
       ],
       "targets": {
@@ -116,8 +121,7 @@
                     "type": "ResponsiveTable"
                   }
                 }
-              },
-              "initialLoad": "Enabled"
+              }
             }
           }
         },
@@ -129,12 +133,24 @@
             "settings": {
               "editableHeaderContent": false,
               "contextPath": "/Books",
-              "content": {
-                "header": {
-                  "visible": true
+              "navigation": {
+                "Chapters": {
+                  "detail": {
+                    "route": "ChaptersObjectPage"
+                  }
                 }
-              },
-              "sectionLayout": "Tabs"
+              }
+            }
+          }
+        },
+        "ChaptersObjectPage": {
+          "type": "Component",
+          "id": "ChaptersObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "editableHeaderContent": false,
+              "contextPath": "/Books/Chapters"
             }
           }
         }

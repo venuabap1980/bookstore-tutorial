@@ -12,13 +12,15 @@
   },
   "scripts": {
     "start": "cds-serve",
-    "watch-bookstore_application": "cds watch --open bookstoreapplication/index.html?sap-ui-xx-viewCache=false --livereload false"
+    "watch-bookstore_application": "cds watch --open bookstoreapplication/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-project_nav": "cds watch --open projectnav/index.html?sap-ui-xx-viewCache=false --livereload false"
   },
   "private": true,
   "workspaces": [
     "app/*"
   ],
   "sapux": [
-    "app/bookstore_application"
+    "app/bookstore_application",
+    "app/project_nav"
   ]
 }
