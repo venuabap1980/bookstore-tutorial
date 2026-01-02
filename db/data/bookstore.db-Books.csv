@@ -1,7 +1,1 @@
-ID,title,author_ID,genre,publishedAt,pages,price,createdAt,createdBy,modifiedAt,modifiedBy
-18062500-0770-4a3e-8aee-39c030b6a28e,Dragon master,21680161-af85-4ce8-b1a2-27db4513aa41,Fiction,2000-04-23,50,5052826.34,2020-06-08T00:00:00.000Z,createdBy.ar544@example.net,2005-12-15T00:00:00.000Z,modifiedBy.ar544@example.com
-18062501-2faa-4a80-b64a-0e02183b840d,Harry porter,21680161-af85-4ce8-b1a2-27db4513aa41,Fiction,2003-03-11,27,659174.26,2009-01-01T00:00:00.000Z,createdBy.ar545@example.org,2002-01-21T00:00:00.000Z,modifiedBy.ar545@example.org
-18062502-6353-42a4-9559-7df6c0750409,Panchatantra,21680161-af85-4ce8-b1a2-27db4513aa41,Moral stories,2007-01-14,27,6142904.29,2017-03-26T00:00:00.000Z,createdBy.ar546@example.com,2017-01-09T00:00:00.000Z,modifiedBy.ar546@example.org
-18062503-07fd-4691-9296-9f649d292040,You can win,21680161-af85-4ce8-b1a2-27db4513aa41,Self help,2002-09-19,71,9861477.28,2014-01-07T00:00:00.000Z,createdBy.ar547@example.org,2003-02-16T00:00:00.000Z,modifiedBy.ar547@example.com
-18062504-cc0b-4f0d-b8d3-c3c831a02e4b,Ramayana,21680161-af85-4ce8-b1a2-27db4513aa41,Ithihasa,2007-06-27,36,3036280.18,2002-06-09T00:00:00.000Z,createdBy.ar548@example.com,2002-07-25T00:00:00.000Z,modifiedBy.ar548@example.org
-18062505-e97b-4d2a-b41d-e35f3fd3d12c,Mahabhratha,21680161-af85-4ce8-b1a2-27db4513aa41,Ithihasa,2003-04-26,74,8482915.68,2010-11-05T00:00:00.000Z,createdBy.ar549@example.com,2023-09-12T00:00:00.000Z,modifiedBy.ar549@example.com
+ID,title,author_ID,genre,publishedAt,pages,price,stock,status_code,createdAt,createdBy,modifiedAt,modifiedBy
