@@ -21,7 +21,7 @@ entity Books : cuid, managed {
 
 type bookstatuscode : String(1) enum {
     Available = 'A';
-    Lowstock = 'L';
+    LowStock = 'L';
     Notavailable = 'N';
 }
 

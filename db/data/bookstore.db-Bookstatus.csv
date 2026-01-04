@@ -1,4 +1,4 @@
 code,criticality,displaytext
-A,1,Available
-L,2,Lowstock
-N,3,Notavailable
+A,3,Available
+L,2,LowStock
+N,1,Notavailable

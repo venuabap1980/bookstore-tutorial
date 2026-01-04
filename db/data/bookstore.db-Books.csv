@@ -1,1 +1,6 @@
 ID,title,author_ID,genre,publishedAt,pages,price,stock,status_code,createdAt,createdBy,modifiedAt,modifiedBy
+17030257-7818-4a67-a934-813e1d919049,title-1703025,10500623-f191-4be0-adc7-e5dca9a556e6,genre-1703025,2007-11-07,71,116074.33,2,N,2007-05-27T00:00:00.000Z,createdBy.10i29@example.org,2001-03-13T00:00:00.000Z,modifiedBy.10i29@example.org
+1703026f-71ba-4b67-9443-2fa76f140eae,title-1703026,10500623-f191-4be0-adc7-e5dca9a556e6,genre-1703026,2003-08-31,94,4793087.23,94,A,2023-05-11T00:00:00.000Z,createdBy.10i2a@example.org,2016-12-10T00:00:00.000Z,modifiedBy.10i2a@example.net
+17030272-e9e7-4015-804e-b8ce1da77d29,title-1703027,10500623-f191-4be0-adc7-e5dca9a556e6,genre-1703027,2019-09-05,75,3538720.28,14,N,2011-07-16T00:00:00.000Z,createdBy.10i2b@example.org,2018-06-05T00:00:00.000Z,modifiedBy.10i2b@example.org
+17030283-c223-4507-a2e5-6ab5653375ea,title-1703028,10500623-f191-4be0-adc7-e5dca9a556e6,genre-1703028,2012-08-27,16,650524.26,11,L,2016-04-25T00:00:00.000Z,createdBy.10i2c@example.com,2000-09-03T00:00:00.000Z,modifiedBy.10i2c@example.org
+1703029e-396e-4e5f-a42c-e00919ae0adb,title-1703029,10500623-f191-4be0-adc7-e5dca9a556e6,genre-1703029,2019-12-04,49,861883.27,34,A,2005-11-29T00:00:00.000Z,createdBy.10i2d@example.org,2007-01-15T00:00:00.000Z,modifiedBy.10i2d@example.net
