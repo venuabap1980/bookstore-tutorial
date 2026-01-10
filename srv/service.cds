@@ -9,3 +9,4 @@ service Bookstore {
 
 
 }
+//annotate Bookstore.Books with @odata.draft.enabled;
